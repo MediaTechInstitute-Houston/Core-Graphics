@@ -22,6 +22,8 @@
 		6441A6D618D8AA4C0050AA46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6441A6B518D8AA4C0050AA46 /* UIKit.framework */; };
 		6441A6DE18D8AA4C0050AA46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6441A6DC18D8AA4C0050AA46 /* InfoPlist.strings */; };
 		6441A6E018D8AA4C0050AA46 /* coregraphicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441A6DF18D8AA4C0050AA46 /* coregraphicsTests.m */; };
+		6441A6EB18D8AB140050AA46 /* rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441A6EA18D8AB140050AA46 /* rectangle.m */; };
+		6441A6EE18D8BB950050AA46 /* Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441A6ED18D8BB950050AA46 /* Gradient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		6441A6DB18D8AA4C0050AA46 /* coregraphicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "coregraphicsTests-Info.plist"; sourceTree = "<group>"; };
 		6441A6DD18D8AA4C0050AA46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6441A6DF18D8AA4C0050AA46 /* coregraphicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coregraphicsTests.m; sourceTree = "<group>"; };
+		6441A6E918D8AB140050AA46 /* rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rectangle.h; sourceTree = "<group>"; };
+		6441A6EA18D8AB140050AA46 /* rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rectangle.m; sourceTree = "<group>"; };
+		6441A6EC18D8BB950050AA46 /* Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gradient.h; sourceTree = "<group>"; };
+		6441A6ED18D8BB950050AA46 /* Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gradient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				6441A6C618D8AA4C0050AA46 /* Main_iPad.storyboard */,
 				6441A6C918D8AA4C0050AA46 /* ViewController.h */,
 				6441A6CA18D8AA4C0050AA46 /* ViewController.m */,
+				6441A6E918D8AB140050AA46 /* rectangle.h */,
+				6441A6EA18D8AB140050AA46 /* rectangle.m */,
+				6441A6EC18D8BB950050AA46 /* Gradient.h */,
+				6441A6ED18D8BB950050AA46 /* Gradient.m */,
 				6441A6CC18D8AA4C0050AA46 /* Images.xcassets */,
 				6441A6B818D8AA4C0050AA46 /* Supporting Files */,
 			);
@@ -256,6 +266,8 @@
 				6441A6CB18D8AA4C0050AA46 /* ViewController.m in Sources */,
 				6441A6C218D8AA4C0050AA46 /* AppDelegate.m in Sources */,
 				6441A6BE18D8AA4C0050AA46 /* main.m in Sources */,
+				6441A6EB18D8AB140050AA46 /* rectangle.m in Sources */,
+				6441A6EE18D8BB950050AA46 /* Gradient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Gradient.h
 //  coregraphics
 //
 //  Created by Mark Dumes on 3/18/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Gradient : UIView
 
 @end
